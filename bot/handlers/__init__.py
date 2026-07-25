@@ -180,7 +180,7 @@ class BotHandlers(
                         button("新建代理", CB_NEW_PROXY, EMOJI["deploy"], BTN_GREEN),
                     ],
                     [button("公开代理", CB_PUBLIC_COUNTRIES, EMOJI["globe"], BTN_RED)],
-                    [url_button("联系作者", "https://t.me/bigbigbig", EMOJI["link"], BTN_BLUE)],
+                    [url_button("联系作者", "https://t.me/yuuu", EMOJI["link"], BTN_BLUE)],
                 ]
             ),
             disable_web_page_preview=True,

@@ -299,9 +299,13 @@ python3.14 main.py
 
 ---
 
+## 作者
+
+- Telegram：[@yuuu](https://t.me/yuuu)
+
 ## License
 
-[MIT](LICENSE) © shuaiqideyu
+[MIT](LICENSE) © [@yuuu](https://t.me/yuuu)
 
 ---
 
