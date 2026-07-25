@@ -4,6 +4,7 @@ __pycache__/
 *.log
 .env
 .cursor/
+AGENTS.md
 progress.md
 progress-archive.md
 .DS_Store
