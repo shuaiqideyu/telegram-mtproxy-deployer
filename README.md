@@ -1,13 +1,13 @@
-# Telegram Proxy Auto Deployer
+# Telegram 代理自动部署
 
-企业级 Telegram 代理自动部署工具。用户在 Bot 内提交服务器信息后，系统通过 SSH 自动完成环境检测、依赖安装、容器/服务部署，并生成可用的 Telegram 代理链接。
+Telegram **MTProxy / SOCKS5** 代理自动部署工具。
 
-主协议为 **MTProxy**，同时支持 **SOCKS5**（`microsocks` + systemd）。
+用户在 Bot 内提交服务器信息后，系统通过 SSH 完成环境检测、依赖安装、容器/服务部署，并生成可用的代理链接。主协议为 **MTProxy**（Docker），同时支持 **SOCKS5**（`microsocks` + systemd）；另含代理管理、公开代理池与流量采样。
 
 [![Python](https://img.shields.io/badge/Python-3.14-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-26A5E4.svg)](https://core.telegram.org/bots/api)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-asyncpg-336791.svg)](https://www.postgresql.org/)
+
+**作者**：[Telegram @yuuu](https://t.me/yuuu)
 
 ---
 
@@ -299,13 +299,11 @@ python3.14 main.py
 
 ---
 
-## 作者
-
-- Telegram：[@yuuu](https://t.me/yuuu)
-
 ## License
 
-[MIT](LICENSE) © [@yuuu](https://t.me/yuuu)
+[MIT](LICENSE)
+
+**作者**：[Telegram @yuuu](https://t.me/yuuu)
 
 ---
 
