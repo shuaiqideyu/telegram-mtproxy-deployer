@@ -117,7 +117,7 @@ def get_settings() -> Settings:
         tls_domain=tls_domain,
         tls_domain_candidates=tls_candidates,
         mtp_tag=os.getenv("MTP_TAG", "").strip(),
-        mtp_image=os.getenv("MTP_IMAGE", "ghcr.io/04by0302/mtproxy:master").strip(),
+        mtp_image=os.getenv("MTP_IMAGE", "ghcr.io/shuaiqideyu/mtproxy:master").strip(),
         session_ttl_seconds=_int_env("SESSION_TTL_SECONDS", 600),
         deploy_timeout_seconds=_int_env("DEPLOY_TIMEOUT_SECONDS", 300),
         command_timeout_seconds=_int_env("COMMAND_TIMEOUT_SECONDS", 1800),
